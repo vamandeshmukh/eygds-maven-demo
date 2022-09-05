@@ -1,0 +1,36 @@
+[
+    {
+        "employeeId": 101,
+        "firstName": "Sonu",
+        "salary": 90000.50,
+        "isMarried": false,
+        "spouse": null,
+        "address": {
+            "Street": "Bank street",
+            "city": "Hyderabad",
+            "pin": 500001
+        },
+        "phones": [
+            9876543210,
+            7896512306
+        ],
+        "hobby": "travelling"
+    },
+    {
+        "employeeId": 102,
+        "firstName": "Monu",
+        "salary": 85000.50,
+        "isMarried": false,
+        "spouse": null,
+        "address": {
+            "Street": "Bank street",
+            "city": "Hyderabad",
+            "pin": 500001
+        },
+        "phones": [
+            9876543210,
+            7896512306
+        ],
+        "hobby": "travelling"
+    }
+]

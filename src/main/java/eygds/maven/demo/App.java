@@ -9,9 +9,9 @@ import eygds.maven.demo.maths.Calc;
  * @author Vaman Deshmukh
  * 
  *         Maven demo project for EYGDS trainees Aug 2022
- *         
+ * 
  *         Run on CMD as :
- *         
+ * 
  *         java -jar eygds-maven-demo-0.0.1-SNAPSHOT.jar
  */
 
