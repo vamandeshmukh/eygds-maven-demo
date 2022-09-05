@@ -23,7 +23,7 @@ public class App {
 		Calc calc = new Calc();
 
 		System.out.println(calc.addNums(num1, num2));
-		System.out.println(calc.subNums(num2, num2));
+		System.out.println(calc.subNums(num1, num2));
 
 		sc.close();
 		System.out.println("End");
