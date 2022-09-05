@@ -5,9 +5,12 @@ import java.util.Scanner;
 import eygds.maven.demo.maths.Calc;
 
 /**
- * Hello world!
- *
+ * 
+ * @author Vaman Deshmukh
+ * 
+ *         Maven demo project for EYGDS trainees Aug 2022
  */
+
 public class App {
 
 	public static void main(String[] args) {
