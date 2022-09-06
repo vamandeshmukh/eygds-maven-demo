@@ -2,7 +2,6 @@ package eygds.maven.demo.maths;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertTimeout;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -75,7 +74,6 @@ public class CalcTests {
 	@Test
 	public void testPrintNums() {
 		System.out.println("testPrintNums");
-
 
 		// your code
 	}
