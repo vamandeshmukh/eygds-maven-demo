@@ -9,7 +9,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
+import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 // test suites    
@@ -39,11 +39,11 @@ public class CalcTests {
 		System.out.println("code to run after each test case");
 	}
 
-	@ValueSource(ints = { 5, 8, 10, 12, 15, 20, 25 })
-	@Test // positive test case
-	public void testAddNums() {
-		System.out.println("testAddNums");
-		assertEquals(10, calc.addNums(5, 5));
+	@ParameterizedTest
+	@ValueSource(ints = { 5, 8, 10, 2, 4, 10, 15 })
+	public void testAddNums(int num) {
+		System.out.println("testAddNums " + num);
+		assertEquals(num + num, calc.addNums(num, num));
 	}
 
 	@Test // negative test case
