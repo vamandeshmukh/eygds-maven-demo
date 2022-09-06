@@ -78,7 +78,8 @@ public class CalcTests {
 
 	@Test
 	public void testGetDataFromDb() {
-		assertTimeout(Duration.ofMillis(400), () -> calc.getDataFromDb(2, 3));
+		assertTimeout(Duration.ofMillis(400), 
+				() -> calc.getDataFromDb(2, 3));
 	}
 
 	@Test
