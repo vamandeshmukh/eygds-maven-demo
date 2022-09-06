@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class CalcTests {
 
 	@Test
-	public void testAddNums() {
+ 	public void testAddNums() {
 		Calc calc = new Calc();
 		int expected = 10;
 		int actual = calc.addNums(5, 5);
