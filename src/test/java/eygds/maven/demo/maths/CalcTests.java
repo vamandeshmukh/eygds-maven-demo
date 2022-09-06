@@ -70,4 +70,12 @@ public class CalcTests {
 		int actual = calc.subNums(10, 5);
 		assertNotEquals(unexpected, actual);
 	}
+
+	@Test
+	public void testPrintNums() {
+		System.out.println("testPrintNums");
+
+		// your code
+	}
+
 }
