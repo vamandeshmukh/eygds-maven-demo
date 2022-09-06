@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
-// test suites 
+// test suites    
 public class CalcTests {
 
 	@Test // positive test case
