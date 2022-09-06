@@ -10,6 +10,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+import org.junit.jupiter.params.provider.ValueSource;
+
 // test suites    
 public class CalcTests {
 
@@ -37,17 +39,16 @@ public class CalcTests {
 		System.out.println("code to run after each test case");
 	}
 
+	@ValueSource(ints = { 5, 8, 10, 12, 15, 20, 25 })
 	@Test // positive test case
 	public void testAddNums() {
 		System.out.println("testAddNums");
-		calc = new Calc();
 		assertEquals(10, calc.addNums(5, 5));
 	}
 
 	@Test // negative test case
 	public void testAddNums2() {
 		System.out.println("testAddNum2");
-		calc = new Calc();
 		int unexpected = 11;
 		int actual = calc.addNums(5, 5);
 		assertNotEquals(unexpected, actual);
@@ -57,7 +58,6 @@ public class CalcTests {
 	@Test
 	public void testSubNums() {
 		System.out.println("testSubNums");
-		calc = new Calc();
 		int expected = 5;
 		int actual = calc.subNums(10, 5);
 		assertEquals(expected, actual);
@@ -66,7 +66,6 @@ public class CalcTests {
 	@Test
 	public void testSubNums2() {
 		System.out.println("testSubNum2");
-		calc = new Calc();
 		int unexpected = 66;
 		int actual = calc.subNums(10, 5);
 		assertNotEquals(unexpected, actual);

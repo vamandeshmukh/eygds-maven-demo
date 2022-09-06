@@ -28,20 +28,14 @@ public class GsonDemo {
 
 		String file = "emp.json";
 
-//		FileWriter writer = new FileWriter(file);
-//		writer.write(empJson);
-//		writer.close();
+		FileWriter writer = new FileWriter(file, true);
+		writer.write(empJson);
+		writer.close();
 
-		FileReader reader = new FileReader(file);
-		
-		String empGsonDataFromFile = "";
-		
-
-
-
-
-
-		reader.close();
+//		FileReader reader = new FileReader(file);
+//		
+//		String empGsonDataFromFile = "";
+//		reader.close();
 
 		System.out.println("end");
 
