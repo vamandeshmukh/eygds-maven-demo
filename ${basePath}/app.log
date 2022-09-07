@@ -1,0 +1,5 @@
+[INFO ] 2022-09-07 14:44:05.082 [main] HelloWorld - Info log
+[ERROR] 2022-09-07 14:44:05.088 [main] HelloWorld - Error log
+[WARN ] 2022-09-07 14:44:05.088 [main] HelloWorld - Warning log
+[FATAL] 2022-09-07 14:44:05.088 [main] HelloWorld - fatal log
+[INFO ] 2022-09-07 14:44:05.088 [main] HelloWorld - fatal log

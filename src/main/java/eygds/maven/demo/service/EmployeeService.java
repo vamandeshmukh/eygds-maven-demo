@@ -11,12 +11,12 @@ public class EmployeeService {
 
 	public EmployeeService() {
 		super();
-
 		if (empList.isEmpty()) {
 			empList.add(new Employee(201, "Abc", 10000));
 			empList.add(new Employee(202, "Def", 15000));
 			empList.add(new Employee(203, "Ghi", 12000));
 		}
+
 	}
 
 	public Employee addEmp(Employee employee) {
