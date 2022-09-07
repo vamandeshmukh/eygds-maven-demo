@@ -1,7 +1,9 @@
-package eygds.maven.demo.model;
+package eygds.maven.demo.service;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import eygds.maven.demo.model.Employee;
 
 public class EmployeeService {
 
