@@ -78,8 +78,7 @@ public class CalcTests {
 
 	@Test
 	public void testGetDataFromDb() {
-		assertTimeout(Duration.ofMillis(400), 
-				() -> calc.getDataFromDb(2, 3));
+		assertTimeout(Duration.ofMillis(400), () -> calc.getDataFromDb(2, 3));
 	}
 
 	@Test
@@ -100,7 +99,6 @@ public class CalcTests {
 	@Test
 	public void testPrintNums() {
 		System.out.println("testPrintNums");
-		// your code to use mockito 
 	}
 
 }
