@@ -1,26 +1,18 @@
 package eygds.maven.demo;
 
-import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class LoggingDemo {
 
+	static Logger logger = LogManager.getLogger(LoggingDemo.class);
+
 	public static void main(String[] args) {
 
-//		Login 
-
-//			Logging 
-//			Log
-//			Logs
-//			Logfile 
-		
-		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter your name:");
-
-		String name = sc.next();
-		System.out.println("Welcome " + name + "!");
-
-		sc.close();
+		logger.info("Info log");
+		logger.warn("Warning log");
+		logger.error("Error log");
+		logger.fatal("Fatal log");
 
 	}
 
