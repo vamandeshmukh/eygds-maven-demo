@@ -1,4 +1,4 @@
-package eygds.maven.demo.maths;
+package eygds.maven.demo.service;
 
 import org.junit.jupiter.api.Test;
 
