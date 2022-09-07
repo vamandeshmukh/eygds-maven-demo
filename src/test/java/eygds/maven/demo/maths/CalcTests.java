@@ -97,11 +97,10 @@ public class CalcTests {
 
 	}
 
-	// @Test
-//	public void testPrintNums() {
-//		System.out.println("testPrintNums");
-//
-//		// your code
-//	}
+	@Test
+	public void testPrintNums() {
+		System.out.println("testPrintNums");
+		// your code to use mockito 
+	}
 
 }
