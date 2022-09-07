@@ -25,7 +25,7 @@ public class EmployeeServiceTests {
 		Employee realEmpObj = new Employee(102, "Monu", 95000);
 
 		Mockito.when(mockService.addEmp(realEmpObj)).thenReturn(realEmpObj);
-		assertEquals(102, realEmpObj.getEmployeeId());
+		assertEquals(102, realEmpObj.getEmployeeId()); 
 
 	}
 }
