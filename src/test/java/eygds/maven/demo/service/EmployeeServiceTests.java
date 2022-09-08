@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -20,6 +21,7 @@ public class EmployeeServiceTests {
 		assertEquals(empToAdd, addedEmp);
 	}
 
+	@Disabled
 	@Test
 	public void addEmployeeMockTest() {
 		EmployeeService mockService = Mockito.mock(EmployeeService.class);

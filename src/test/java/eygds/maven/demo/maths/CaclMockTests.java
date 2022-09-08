@@ -23,8 +23,8 @@ public class CaclMockTests {
 	public void testPrintNums2() {
 		System.out.println("testPrintNums2");
 		Calc calc = mock(Calc.class);
-		calc.printNums(5, 9);
-		doNothing().when(calc).printNums(5, 9);
+		calc.printNums(2, 2);
+		doNothing().when(calc).printNums(2, 2);
 		verify(calc).printNums(2, 2);
 	}
 

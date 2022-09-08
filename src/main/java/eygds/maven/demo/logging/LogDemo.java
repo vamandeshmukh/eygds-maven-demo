@@ -23,6 +23,8 @@ public class LogDemo {
 		int num3 = calc.divNums(num1, num2);
 
 		logger.info(num3);
+		
+		sc.close();
 
 	}
 

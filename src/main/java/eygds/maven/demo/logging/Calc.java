@@ -13,9 +13,7 @@ public class Calc {
 		try {
 			k = i / j;
 		} catch (ArithmeticException e) {
-
 			logger.warn("Do not divide by 0");
-
 		}
 		return k;
 	}
