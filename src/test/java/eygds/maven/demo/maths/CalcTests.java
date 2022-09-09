@@ -82,6 +82,13 @@ public class CalcTests {
 	}
 
 	@Test
+	public void testGetDataFromDb2() {
+		assertDoesNotThrow(() -> {
+			calc.getDataFromDb(1, 1);
+		});
+	}
+
+	@Test
 	public void testCheckPositive() {
 		assertThrows(RuntimeException.class, () -> {
 			calc.checkPositive(-1);
